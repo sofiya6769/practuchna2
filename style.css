@@ -1,0 +1,565 @@
+.header {
+    display: grid;
+    width: 400px;
+    grid-template-columns: repeat(6, auto);
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.container1 {
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-image: url('../images/la.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    padding-top: 200px;
+    font-family: Montserrat;
+}
+
+.text1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.text2 {
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.text3 {
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.freepik {
+    font-weight: bold;
+}
+
+.containertext {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containergrey {
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.containertxt1 {
+    font-size: 15px;
+    color: lightgrey;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.containerbutton {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.containertxt2 {
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    background-color: #fbeced;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Montserrat;
+}
+
+.paris {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.NewYork {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.parising {
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.NewYorking {
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.paristxt {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.paristxt2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+}
+
+.NewYorktxt {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.NewYorktxt2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+}
+
+.LosAngeles {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.LosAngelesing {
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.LosAngelestxt {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.LosAngelestxt2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+}
+
+.chicago {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.chicagoing {
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.chicagotxt {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.chicagotxt2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+}
+
+.verona {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.veronaing {
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.veronatxt {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.veronatxt2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+}
+
+.tokio {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.tokioing {
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.tokiotxt {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.tokiotxt2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+}
+
+.container3 {
+    margin-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+}
+
+.imgNY {
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    background-image: url('../images/pexels-photo-325185.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.newyorkheader {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.NYtext {
+    margin-top: 10px;
+}
+
+.sampletext {
+    font-size: 15px;
+    color: black;
+}
+
+.sampletext2 {
+    font-size: 15px;
+    color: blue;
+}
+
+.container4 {
+    width: 900px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 250px);
+    gap: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img1 {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img2 {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img3 {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img4 {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img5 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img6 {
+    grid-column: 3;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container5 {
+    width: 800px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 390px);
+    grid-template-rows: repeat(1, 500px);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 10px;
+    overflow: hidden;
+    font-family: Montserrat;
+}
+
+.keysing {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.container5txt {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #f0effd;
+    border-radius: 30px;
+}
+
+.keysheader {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.keytxt {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.keytxt2 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.keytxt3 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.keytxt4 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.keyfreepik {
+    font-size: 15px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.keytxt6 {
+    color: blue;
+}
+
+.container6 {
+    margin-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+}
+
+.imgapt {
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    background-image: url('../images/low-angle-shot-facade-white-modern-building-blue-clear-sky.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.apartmentsheader {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.apttexts {
+    margin-top: 10px;
+}
+
+.apttext {
+    font-size: 15px;
+}
+
+.apttext2 {
+    font-size: 15px;
+    color: blue;
+}
+
+.container7 {
+    width: 100%;
+    height: 250px;
+    background-color: #fbeced;
+    margin-top: 50px;
+    font-family: Montserrat;
+}
+
+.footerheader {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+.footertxt {
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.endinfoenter {
+    width: 800px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endname {
+    font-size: 10px;
+}
+
+.nameenter {
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+}
+
+.endnameenter {
+    font-size: 10px;
+    color: lightgray;
+}
+
+.endemail {
+    font-size: 10px;
+}
+
+.emailenter {
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+}
+
+.endemailenter {
+    font-size: 10px;
+    color: lightgray;
+}
+
+.endsubmit {
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.endsubmitenter {
+    font-size: 10px;
+    color: white;
+}
+
+.container8 {
+    width: 100%;
+    height: 200px;
+    background-color: #333333;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.sampletextend {
+    font-size: 10px;
+    color: white;
+    padding-top: 50px;
+}
+
+.lasttext {
+    font-size: 10px;
+    margin-top: 100px;
+}
+
+.lasttext1, .lasttext3 {
+    color: #72719b;
+    text-decoration: underline;
+}
+
+.lasttext2 {
+    color: white;
+}
